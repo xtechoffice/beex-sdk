@@ -1,0 +1,40 @@
+{
+  "name": "beex-payments",
+  "version": "1.0.0",
+  "description": "Official Node.js SDK for Bee X Payments — accept USDT (TRC-20 / BEP-20) payments and send payouts.",
+  "main": "src/index.js",
+  "types": "index.d.ts",
+  "files": [
+    "src",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [
+    "beex",
+    "bee x payments",
+    "crypto payments",
+    "usdt",
+    "trc20",
+    "bep20",
+    "payment gateway",
+    "crypto payment gateway",
+    "payouts",
+    "tron"
+  ],
+  "homepage": "https://beexpayments.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xtechoffice/beex-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xtechoffice/beex-sdk/issues"
+  },
+  "license": "MIT"
+}
